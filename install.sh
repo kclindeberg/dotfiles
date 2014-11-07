@@ -4,7 +4,8 @@ cd "$(dirname "$0")"
 echo "Installing dotfiles"
 IFS='='
 for file in \
-	git=.config/git
+	git=.config/git \
+	vim=.vim
 do
 	set $file
 	src="$PWD/$1"
