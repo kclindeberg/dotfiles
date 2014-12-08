@@ -9,3 +9,7 @@ set visualbell                    " No beeping
 let c_space_errors = 1            " Highlight white space errors
 let java_space_errors = 1
 let python_space_error_highlight = 1
+
+" Copy/Paste
+vnoremap <C-c> "+y
+inoremap <C-v> <C-r><C-o>+
