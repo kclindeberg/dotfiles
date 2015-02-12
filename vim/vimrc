@@ -5,6 +5,7 @@ set wildmode=longest:full,full    " Command-line completion
 set ignorecase                    " Case-insensitive searching
 set smartcase                     " But case-sensitive if expression contains a capital letter
 set hlsearch                      " Highlight matches
+set diffopt+=vertical             " Vertical diff splits
 set visualbell                    " No beeping
 let c_space_errors = 1            " Highlight white space errors
 let java_space_errors = 1
