@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd "$(dirname "$0")"
+
 echo "Installing dotfiles"
 IFS='='
 for file in \
@@ -22,3 +23,6 @@ do
 		echo "- $dst --> $src"
 	fi
 done
+
+echo "Setting profile preferences for gnome-terminal"
+dconf load /org/gnome/terminal/legacy/profiles:/ <gnome-terminal/profiles.txt
