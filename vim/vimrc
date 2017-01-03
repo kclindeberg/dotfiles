@@ -14,3 +14,8 @@ let python_space_error_highlight = 1
 " Copy/Paste
 vnoremap <C-c> "+y
 inoremap <C-v> <C-r><C-o>+
+
+" Grep
+nnoremap <Leader>* :Grepper -cword -noprompt -highlight<CR>
+nmap gs <plug>(GrepperOperator)
+xmap gs <plug>(GrepperOperator)
