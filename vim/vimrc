@@ -19,3 +19,8 @@ inoremap <C-v> <C-r><C-o>+
 nnoremap <Leader>* :Grepper -cword -noprompt -highlight<CR>
 nmap gs <plug>(GrepperOperator)
 xmap gs <plug>(GrepperOperator)
+
+" Write/Quit
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>x :x<CR>
