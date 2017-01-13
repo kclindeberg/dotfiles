@@ -12,8 +12,15 @@ let java_space_errors = 1
 let python_space_error_highlight = 1
 
 " Copy/Paste
-vnoremap <C-c> "+y
-inoremap <C-v> <C-r><C-o>+
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+vmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>P "+P
+vnoremap y y`]
+vnoremap p p`]
+nnoremap p p`]
 
 " Grep
 nnoremap <Leader>* :Grepper -cword -noprompt -highlight<CR>
