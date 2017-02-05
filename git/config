@@ -1,0 +1,11 @@
+[alias]
+	ad = add
+	br = branch
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	di = diff
+	lo = log --oneline --decorate --graph
+	st = status --short
+[include]
+	path = config.local
