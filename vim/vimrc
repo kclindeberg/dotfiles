@@ -1,3 +1,6 @@
+runtime bundle/pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 set wildmode=longest,list,full    " Command-line completion
 set ignorecase                    " Case-insensitive searching
 set smartcase                     " But case-sensitive if expression contains a capital letter
