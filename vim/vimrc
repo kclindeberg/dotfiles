@@ -1,9 +1,8 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-set wildmode=longest,list,full    " Command-line completion
+set wildmode=longest:full,full    " Command-line completion
 set ignorecase                    " Case-insensitive searching
 set smartcase                     " But case-sensitive if expression contains a capital letter
-set incsearch                     " Highlight matches as you type
 set hlsearch                      " Highlight matches
 set visualbell                    " No beeping
